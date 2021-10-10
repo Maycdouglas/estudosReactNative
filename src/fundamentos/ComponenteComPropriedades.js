@@ -1,13 +1,21 @@
 import React from 'react';
 import { Text } from 'react-native'
 
-export default (param) => {
-    console.warn(param)
+export default (props) => {
+    console.warn(props)
     return (
         <Text> 
-            Os valo2r {1 + 1} é maior que o valor y
+            O valor {props.prop2} é maior que o valor {props.prop1}
         </Text>
     )
 }
+
+//FORMA ENXUTA
+
+// export default props => (
+//     <Text> 
+//             O valor {props.prop2} é maior que o valor {props.prop1}
+//         </Text>
+// )
 
 
