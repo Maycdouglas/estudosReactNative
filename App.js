@@ -6,6 +6,8 @@ import ComponenteComPropriedades from './src/fundamentos/ComponenteComPropriedad
 import ReactFragment from './src/fundamentos/ReactFragment';
 import Botao from './src/fundamentos/Botao';
 import Estado from './src/fundamentos/Estado';
+import PaiDireto from './src/fundamentos/ComunicacaoDireta/PaiDireto';
+import PaiIndireto from './src/fundamentos/ComunicacaoIndireta/PaiIndireto';
 import { SafeAreaViewComponent, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
@@ -19,6 +21,8 @@ export default function App() {
       <ReactFragment principal="Principal" secundario="Secundário"></ReactFragment>
       <Botao/>
       <Estado valor={1}/>
+      <PaiDireto a={10}/>
+      <PaiIndireto/>
     </View>
   );
 }
