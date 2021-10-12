@@ -10,6 +10,13 @@ import PaiDireto from './src/fundamentos/ComunicacaoDireta/PaiDireto';
 import PaiIndireto from './src/fundamentos/ComunicacaoIndireta/PaiIndireto';
 import Plataforma from './src/fundamentos/Plataforma';
 import RenderizacaoCondicional from './src/fundamentos/RenderizacaoCondicional';
+import Familia from './src/fundamentos/PropsChildren/Familia';
+import Membro from './src/fundamentos/PropsChildren/Membro';
+
+
+
+
+
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
@@ -27,6 +34,16 @@ export default function App() {
       <PaiIndireto/>
       <Plataforma/>
       <RenderizacaoCondicional num={3}/>
+      <Familia>
+        <Membro nome="Maycon" sobrenome="Douglas"/>
+        <Membro nome="Douglas" sobrenome="Henrique"/>
+        <Membro nome="Henrique" sobrenome="Douglas"/>
+      </Familia>
+      
+
+
+
+
     </SafeAreaView>
   );
 }
