@@ -4,6 +4,7 @@ import App2 from './src/App2';
 import Aleatorio from './src/desafios/Aleatorio';
 import ComponenteComPropriedades from './src/fundamentos/ComponenteComPropriedades';
 import ReactFragment from './src/fundamentos/ReactFragment';
+import Botao from './src/fundamentos/Botao';
 import { SafeAreaViewComponent, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
@@ -15,7 +16,7 @@ export default function App() {
       <App2/>
       <Text>O número aleatório é: <Aleatorio min={50} max={30}/> </Text>
       <ReactFragment principal="Principal" secundario="Secundário"></ReactFragment>
-      
+      <Botao/>
     </View>
   );
 }
