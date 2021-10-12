@@ -9,11 +9,12 @@ import Estado from './src/fundamentos/Estado';
 import PaiDireto from './src/fundamentos/ComunicacaoDireta/PaiDireto';
 import PaiIndireto from './src/fundamentos/ComunicacaoIndireta/PaiIndireto';
 import Plataforma from './src/fundamentos/Plataforma';
-import { SafeAreaViewComponent, StyleSheet, Text, View } from 'react-native';
+import RenderizacaoCondicional from './src/fundamentos/RenderizacaoCondicional';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <ComponenteComPropriedades prop1 = "20" prop2 = "23"/>
       <Text>Olá mundo!</Text>
       <StatusBar style="auto" />
@@ -25,7 +26,8 @@ export default function App() {
       <PaiDireto a={10}/>
       <PaiIndireto/>
       <Plataforma/>
-    </View>
+      <RenderizacaoCondicional num={3}/>
+    </SafeAreaView>
   );
 }
 
