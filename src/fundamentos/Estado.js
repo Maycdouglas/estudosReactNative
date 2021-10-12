@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, Button } from 'react-native'
+import { Text, Button } from 'react-native';
 
 export default props => {
 
