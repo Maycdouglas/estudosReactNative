@@ -14,6 +14,8 @@ import Familia from './src/fundamentos/PropsChildren/Familia';
 import Membro from './src/fundamentos/PropsChildren/Membro';
 import UsuarioLogado from './src/fundamentos/RenderizacaoCondicional2/UsuarioLogado'
 import ListaProdutos from './src/fundamentos/RenderizacaoLista/ListaProdutos';
+import ListaProdutos2 from './src/fundamentos/RenderizacaoLista/ListaProdutos2';
+
 
 
 
@@ -43,6 +45,7 @@ export default function App() {
    
       
       <ListaProdutos></ListaProdutos>
+      <ListaProdutos2></ListaProdutos2>
 
 
 
