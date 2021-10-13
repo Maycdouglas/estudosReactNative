@@ -15,7 +15,7 @@ import Membro from './src/fundamentos/PropsChildren/Membro';
 import UsuarioLogado from './src/fundamentos/RenderizacaoCondicional2/UsuarioLogado'
 import ListaProdutos from './src/fundamentos/RenderizacaoLista/ListaProdutos';
 import ListaProdutos2 from './src/fundamentos/RenderizacaoLista/ListaProdutos2';
-
+import ComponentesControlados from './src/fundamentos/ComponentesControlados';
 
 
 
@@ -41,12 +41,14 @@ export default function App() {
         <Membro nome="Douglas" sobrenome="Henrique"/>
         <Membro nome="Henrique" sobrenome="Douglas"/>
       </Familia>
-      <UsuarioLogado usuario={ {nome:"Maycon", email:"maycon@maycon.com"} }/> */}
+      <UsuarioLogado usuario={ {nome:"Maycon", email:"maycon@maycon.com"} }/> 
+      <ListaProdutos></ListaProdutos>
+      <ListaProdutos2></ListaProdutos2>*/}
    
       
-      <ListaProdutos></ListaProdutos>
-      <ListaProdutos2></ListaProdutos2>
-
+      
+  
+      <ComponentesControlados></ComponentesControlados>
 
 
 
