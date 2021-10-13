@@ -12,8 +12,8 @@ import Plataforma from './src/fundamentos/Plataforma';
 import RenderizacaoCondicional from './src/fundamentos/RenderizacaoCondicional';
 import Familia from './src/fundamentos/PropsChildren/Familia';
 import Membro from './src/fundamentos/PropsChildren/Membro';
-import UsuarioLogado from './src/fundamentos/RenderizacaoCondicional2.js/UsuarioLogado';
-
+import UsuarioLogado from './src/fundamentos/RenderizacaoCondicional2/UsuarioLogado'
+import ListaProdutos from './src/fundamentos/RenderizacaoLista/ListaProdutos';
 
 
 
@@ -22,7 +22,7 @@ import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <ComponenteComPropriedades prop1 = "20" prop2 = "23"/>
+      {/* <ComponenteComPropriedades prop1 = "20" prop2 = "23"/>
       <Text>Olá mundo!</Text>
       <StatusBar style="auto" />
       <App2/>
@@ -39,8 +39,10 @@ export default function App() {
         <Membro nome="Douglas" sobrenome="Henrique"/>
         <Membro nome="Henrique" sobrenome="Douglas"/>
       </Familia>
-      <UsuarioLogado usuario={ {nome:"Maycon", email:"maycon@maycon.com"} }/>
+      <UsuarioLogado usuario={ {nome:"Maycon", email:"maycon@maycon.com"} }/> */}
+   
       
+      <ListaProdutos></ListaProdutos>
 
 
 
