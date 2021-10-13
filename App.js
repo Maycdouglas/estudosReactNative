@@ -12,7 +12,7 @@ import Plataforma from './src/fundamentos/Plataforma';
 import RenderizacaoCondicional from './src/fundamentos/RenderizacaoCondicional';
 import Familia from './src/fundamentos/PropsChildren/Familia';
 import Membro from './src/fundamentos/PropsChildren/Membro';
-
+import UsuarioLogado from './src/fundamentos/RenderizacaoCondicional2.js/UsuarioLogado';
 
 
 
@@ -39,6 +39,7 @@ export default function App() {
         <Membro nome="Douglas" sobrenome="Henrique"/>
         <Membro nome="Henrique" sobrenome="Douglas"/>
       </Familia>
+      <UsuarioLogado usuario={ {nome:"Maycon", email:"maycon@maycon.com"} }/>
       
 
 
