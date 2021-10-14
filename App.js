@@ -17,6 +17,11 @@ import ListaProdutos from './src/fundamentos/RenderizacaoLista/ListaProdutos';
 import ListaProdutos2 from './src/fundamentos/RenderizacaoLista/ListaProdutos2';
 import ComponentesControlados from './src/fundamentos/ComponentesControlados';
 import Quadrado from './src/fundamentos/Layout/Quadrado';
+import FlexBoxV1 from './src/fundamentos/Layout/FlexBoxV1';
+import FlexBoxV2 from './src/fundamentos/Layout/FlexBoxV2';
+import FlexBoxV3 from './src/fundamentos/Layout/FlexBoxV3';
+
+
 
 
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
@@ -44,16 +49,17 @@ export default function App() {
       <UsuarioLogado usuario={ {nome:"Maycon", email:"maycon@maycon.com"} }/> 
       <ListaProdutos></ListaProdutos>
       <ListaProdutos2></ListaProdutos2>
-      <ComponentesControlados></ComponentesControlados>*/}
-   
+      <ComponentesControlados></ComponentesControlados>
+      <FlexBoxV1></FlexBoxV1>
+      <FlexBoxV2></FlexBoxV2>*/}
       
+      
+      
+      <FlexBoxV3></FlexBoxV3>
       
   
       
-      <Quadrado cor="#0f0"></Quadrado>
-      <Quadrado cor="#f00"></Quadrado>
-      <Quadrado cor="#00f"></Quadrado>
-      <Quadrado></Quadrado>
+      
 
 
 
