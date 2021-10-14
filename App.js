@@ -16,7 +16,7 @@ import UsuarioLogado from './src/fundamentos/RenderizacaoCondicional2/UsuarioLog
 import ListaProdutos from './src/fundamentos/RenderizacaoLista/ListaProdutos';
 import ListaProdutos2 from './src/fundamentos/RenderizacaoLista/ListaProdutos2';
 import ComponentesControlados from './src/fundamentos/ComponentesControlados';
-
+import Quadrado from './src/fundamentos/Layout/Quadrado';
 
 
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
@@ -43,12 +43,17 @@ export default function App() {
       </Familia>
       <UsuarioLogado usuario={ {nome:"Maycon", email:"maycon@maycon.com"} }/> 
       <ListaProdutos></ListaProdutos>
-      <ListaProdutos2></ListaProdutos2>*/}
+      <ListaProdutos2></ListaProdutos2>
+      <ComponentesControlados></ComponentesControlados>*/}
    
       
       
   
-      <ComponentesControlados></ComponentesControlados>
+      
+      <Quadrado cor="#0f0"></Quadrado>
+      <Quadrado cor="#f00"></Quadrado>
+      <Quadrado cor="#00f"></Quadrado>
+      <Quadrado></Quadrado>
 
 
 
