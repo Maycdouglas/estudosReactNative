@@ -20,7 +20,7 @@ import Quadrado from './src/fundamentos/Layout/Quadrado';
 import FlexBoxV1 from './src/fundamentos/Layout/FlexBoxV1';
 import FlexBoxV2 from './src/fundamentos/Layout/FlexBoxV2';
 import FlexBoxV3 from './src/fundamentos/Layout/FlexBoxV3';
-
+import Mega from './src/fundamentos/ComponenteClasse/Mega';
 
 
 
@@ -51,11 +51,13 @@ export default function App() {
       <ListaProdutos2></ListaProdutos2>
       <ComponentesControlados></ComponentesControlados>
       <FlexBoxV1></FlexBoxV1>
-      <FlexBoxV2></FlexBoxV2>*/}
+      <FlexBoxV2></FlexBoxV2>
+      <FlexBoxV3></FlexBoxV3>*/}
       
       
       
-      <FlexBoxV3></FlexBoxV3>
+      
+      <Mega qntd={10}/>
       
   
       
