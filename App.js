@@ -21,8 +21,8 @@ import FlexBoxV1 from './src/fundamentos/Layout/FlexBoxV1';
 import FlexBoxV2 from './src/fundamentos/Layout/FlexBoxV2';
 import FlexBoxV3 from './src/fundamentos/Layout/FlexBoxV3';
 import Mega from './src/fundamentos/ComponenteClasse/Mega';
-
-
+import TelaA from './src/fundamentos/ReactNavigation/screens/TelaA';
+import Navegacao from './src/navegacao'
 
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 
@@ -52,12 +52,13 @@ export default function App() {
       <ComponentesControlados></ComponentesControlados>
       <FlexBoxV1></FlexBoxV1>
       <FlexBoxV2></FlexBoxV2>
-      <FlexBoxV3></FlexBoxV3>*/}
-      
-      
-      
-      
+      <FlexBoxV3></FlexBoxV3>
       <Mega qntd={10}/>
+      <TelaA/>*/}
+      
+            
+      <Navegacao></Navegacao>
+      
       
   
       
@@ -73,7 +74,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    // alignItems: 'center',
     justifyContent: 'center',
   },
 });
